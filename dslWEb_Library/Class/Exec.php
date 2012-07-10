@@ -17,8 +17,16 @@ class cExec {
 		}else{
 			return false;
 		}
-		
-		
+	}
+	function _callExe2($directory){
+		/*@todo: create an ini that will provide user the default location of the directory */
+		set_time_limit(0);
+		$dir2 = $directory.'dslexe2.exe';
+		if (exec($dir2)){
+			return true;
+		}else{
+			return false;
+		}
 	}
     function background($Command, $Priority = 0){
        if($Priority)

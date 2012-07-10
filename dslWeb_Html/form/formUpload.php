@@ -1,5 +1,5 @@
 <div id = "formFile">
-	<form enctype ="multipart/form-data"  action = "uploadPrcs.php" method = "post">
+	<form enctype ="multipart/form-data"  action = "uploadPrcs2.php" method = "POST">
 		<label class="cform">
 			<input id ="my_c" type = "file" name ="fileUpload"> 
 			<input type="hidden" name="MAX_FILE_SIZE" value="25000000000" />

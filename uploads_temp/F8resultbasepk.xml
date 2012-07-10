@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8" ?>
+ <PowerSolvML xmlns="http://www.powersolv.com/powersolvml" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.powersolv.com/powersolvml  powersolvml_schema.xsd"> 
+  <feeder>
+   <feeder-id>F8resultbasepk</feeder-id>
+     <carrier-circuit-lines/>
+     <two-winding-power-transformers/>
+     <three-winding-power-transformers/>
+     <load-curve-sets>
+      <number-of-load-curve>1</number-of-load-curve>
+      <load-curve-set>
+       <peak-ratio>1.0</peak-ratio>
+       <number-of-days>31</number-of-days>
+  </feeder>
+ </PowerSolvML>

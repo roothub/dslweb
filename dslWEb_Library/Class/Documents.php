@@ -66,14 +66,14 @@
 			$dir  = 'D:/xampp/htdocs/dslweb/files/dslweb_input/';
 			chdir($dir);
 				$dateNow = cDocuments::getDate(); 
-			$file = 'PSI_DSL_DLL_INPUT.txt';
+			$file = 'PSI_DSL_DLL_INPUT2.txt';
 			$fh = fopen($file,'w') or die ('can\'t open '.$file);
 			$sData = 'D:\\xampp\\htdocs\\dslweb\\uploads_temp\\'.$arg3."\n";
 			fwrite($fh,$sData);
 				$sData = "D:\\xampp\\htdocs\\dslweb\\files\\dslweb_output\\$dateNow".PHP_EOL;
 				$sData2 ="D:\\xampp\\htdocs\\dslweb\\files\\dslweb_output\\$dateNow\\";
 				fwrite($fh,$sData);
-			$sData = "D:\\xampp\\htdocs\\dslweb\\files\\dslweb_config\\config.xml";			
+			$sData = "D:\\xampp\\htdocs\\dslweb\\files\\dslweb_config\\lookuptables";			
 			fwrite($fh,$sData);
 			fclose($fh);
 			$sDatas = array('fDir'=>$sData2,'fDate'=>$dateNow);
@@ -86,7 +86,7 @@
 		{
 			$timezone = 'Asia/Manila';
 			date_default_timezone_set($timezone);
-			$timeNow =date("m-d-Y-Hia");
+			$timeNow =date("m-d-Y-hia");
 			return $timeNow;
 		}
 		function createDir($arg2)
