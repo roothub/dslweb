@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PowerSolvML-config>
+	<simulation-parameters>
+		<lookup-table-path>D:\xampp\htdocs\dslWeb\files\dslWeb_config\lookuptables</lookup-table-path>
+		<primary-kv>23</primary-kv>
+		<secondary-kv>0.23</secondary-kv>
+		<percent-PQ>100</percent-PQ>
+		<percent-Z>0</percent-Z>
+		<convergence-index>0.00001</convergence-index>
+		<base-kva>30</base-kva>
+		<max-iteration>30</max-iteration>
+		<load-bus-voltage>1.0</load-bus-voltage>
+        <source-voltage>
+			<values>
+				<value>1.0</value>
+				<value>1.0</value>
+				<value>1.0</value>
+				<value>1.0</value>
+				<value>1.0</value>
+				<value>1.0</value>
+				<value>1.0</value>
+				<value>1.0</value>
+				<value>1.0</value>
+				<value>1.0</value>
+				<value>1.0</value>
+				<value>1.0</value>
+				<value>1.0</value>
+				<value>1.0</value>
+				<value>1.0</value>
+				<value>1.0</value>
+				<value>1.0</value>
+				<value>1.0</value>
+				<value>1.0</value>
+				<value>1.0</value>
+				<value>1.0</value>
+				<value>1.0</value>
+				<value>1.0</value>
+				<value>1.0</value>
+			</values>
+		</source-voltage>
+		<percent-loading>100</percent-loading>
+		<critical-voltage>0.95</critical-voltage>
+	</simulation-parameters>
+</PowerSolvML-config>

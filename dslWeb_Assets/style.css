@@ -1,0 +1,153 @@
+@CHARSET "ISO-8859-1";
+/*########################## ID DIVISION ########################*/
+
+body{ 
+	background-color: white;
+	margin:0;
+	padding:0;
+	
+}	
+
+#mycontainer{
+	min-height:650px;
+	width:100%;
+	background-color:white;
+	height:auto;
+	
+	
+}
+
+#banner{
+		background:url(images/logotitle3.png) repeat-y scroll center top white;
+		
+		height:103px;
+		width:100%;
+		margin-left:-175px;
+		padding:25px;
+		z-index:100;
+
+		
+	
+	}
+#line
+	
+{	
+	z-index:1;
+	margin-top:-5px;
+	border-top:1px solid white;
+	border-bottom:3px solid white;
+	padding:5px;
+	
+	background-color:orange;
+	   -moz-box-shadow: 4px 4px 60px orange;
+   -webkit-box-shadow: 4px 4px 60px orange;
+   box-shadow:4px 4px 60px orange;
+
+
+}
+#main{
+	background-color:#fff;
+	width:1024px;
+	margin:auto;
+	margin-top:0px;
+	border:solid 1px #E7EFF2;
+	
+	
+}
+
+	#dStatus
+	{
+		float:left;
+		background-color:#fff;
+		min-height:400px;
+		width:370px;
+		-moz-box-shadow: 10px 4px 100px #E7EFF2;
+   -webkit-box-shadow: 10px 4px 100px #E7EFF2;
+   box-shadow:10px 0px 100px #E7EFF2;
+
+	}
+	#dStatus1
+	{
+		
+	}
+	#dList
+	{
+		padding-top:5px;
+		float:right;
+		background-color:#fff;
+		height:400px;
+		width:650px;
+		
+		overflow-y:scroll;
+		overflow-x:hidden;
+		-moz-box-shadow: 10px 4px 100px #E7EFF2;
+   -webkit-box-shadow: 10px 4px 100px #E7EFF2;
+   box-shadow:10px 0px 100px #E7EFF2;
+	}
+#footer 
+	{
+		background-color:#fff;
+		min-height:50px;
+		width:1024px;
+		margin:auto;
+		
+	}
+#formFile
+	{
+		margin:auto;
+		margin-top:40px;
+		height:35px;
+		width:250px;
+		background-color:#E7EFF2;
+		padding:40px;
+		text-align:center;
+		text-shadow:1px 1px 1px white;
+		
+	}
+#formFile input[type=file]
+	{
+		border: 1px solid #6285CA;;
+		background-color:white;
+		text-shadow:1px 1px 1px white;
+	}
+#formFile input[type=submit]
+	{
+		border:none;
+		float:right;
+		background-color:white;
+		color:#69F;
+		text-shadow:1px 1px 1px white;
+	}
+#formFile input[type=submit]:hover
+	{
+		border:none;
+		float:right;
+		color:#E7EFF2;
+	}
+
+/*####################################### classes ############################## */
+
+ .clear
+	{
+		clear: both;
+	}
+
+#dStatus1 h1 {
+	
+color: #69F;
+font-family: Arial, Helvetica, sans-serif;
+font-weight: bold;
+font-size: medium;
+margin: 0px 0px 0px 25px;
+padding: 0;
+}
+
+.error{
+font-family: Arial, Helvetica, sans-serif;
+font-weight:bold;
+color:red;
+text-align:center;	
+	
+} 
+
+	

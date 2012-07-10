@@ -1,0 +1,4 @@
+Triangular
+Horizontal
+Vertical
+Parallel
