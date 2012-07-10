@@ -21,7 +21,7 @@
 			unset($_SESSION['$outEcho']); 
 			$objDoc = new cDocuments();
 			//include_once 'dslWeb_Html/form/formUpload.php';
-			include_once 'dslWeb_Html/form/formOption.php';
+			include_once 'dslWeb_Html/form/formUpload.php';
 		}
 	
 		

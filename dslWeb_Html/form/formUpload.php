@@ -6,7 +6,12 @@
 				
 		</label>
 		<label class="submit">
-		<input type = "submit"  value = "upload" name = "submit" >
+		<input type = "submit"  value = "Segregate" name = "Submit" >
+				
+		</label>
+		<label class ="submit">
+		
+		<input type = "submit" value = "Sanitize" name ="Submit">  
 		</label>		
 	</form>
 </div>

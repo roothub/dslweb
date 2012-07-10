@@ -62,6 +62,26 @@
 			$sData2= '';
 			$sData = '';
 			}
+		function fileCreateSanitize($arg3){
+			$dir  = 'D:/xampp/htdocs/dslweb/files/dslweb_input/';
+			chdir($dir);
+				$dateNow = cDocuments::getDate(); 
+			$file = 'PSI_DSL_DLL_INPUT.txt';
+			$fh = fopen($file,'w') or die ('can\'t open '.$file);
+			$sData = 'D:\\xampp\\htdocs\\dslweb\\uploads_temp\\'.$arg3."\n";
+			fwrite($fh,$sData);
+				$sData = "D:\\xampp\\htdocs\\dslweb\\files\\dslweb_output\\$dateNow".PHP_EOL;
+				$sData2 ="D:\\xampp\\htdocs\\dslweb\\files\\dslweb_output\\$dateNow\\";
+				fwrite($fh,$sData);
+			$sData = "D:\\xampp\\htdocs\\dslweb\\files\\dslweb_config\\config.xml";			
+			fwrite($fh,$sData);
+			fclose($fh);
+			$sDatas = array('fDir'=>$sData2,'fDate'=>$dateNow);
+			return $sDatas;		
+			$sData2= '';
+			$sData = '';
+			}
+		
 		function getDate()
 		{
 			$timezone = 'Asia/Manila';
